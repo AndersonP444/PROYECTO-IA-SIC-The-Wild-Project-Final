@@ -36,7 +36,7 @@
 ## **Tecnologías Utilizadas**
 
 - **Inteligencia Artificial**:
-  - **Groq API** con el modelo **Llama3-70b** para análisis avanzado.
+  - **Groq API** con el modelo **Llama3-70b** para análisis avanzado y chat bot.
   - **Red Neuronal** entrenada con TensorFlow/Keras para clasificación de contraseñas.
   
 - **Criptografía**:
