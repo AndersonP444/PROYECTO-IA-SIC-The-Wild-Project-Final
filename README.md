@@ -130,7 +130,7 @@ Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICE
 ---
 
 ## **Contacto**
-- **Autores**:
+**Autores**:
 - AndersonP444 ()
 - DiegoAlviarez (dilanalviarez@gmail.com)
 - Jeremyvr28 (jeremyvicent28@gmail.com)
