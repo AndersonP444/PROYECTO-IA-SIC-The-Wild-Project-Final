@@ -20,6 +20,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, BatchNormalization
 from tensorflow.keras.callbacks import EarlyStopping
 
+# Configura el título de la pestaña y el ícono de candado
+st.set_page_config(page_title="WildPassPro", page_icon="🔒")
+
 # Configuración de Groq
 GROQ_API_KEY = "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"
 MODEL_NAME = "llama3-70b-8192"
