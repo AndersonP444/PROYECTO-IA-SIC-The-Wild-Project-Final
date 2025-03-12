@@ -1,138 +1,165 @@
-# **WildPassPro - Suite de Seguridad**
+WildPassPro - Suite de Seguridad y Gestión de Contraseñas 🔐
+📑 Tabla de Contenidos
+Nombre del Proyecto
 
-**WildPassPro** es una aplicación avanzada de seguridad diseñada para gestionar, analizar y proteger contraseñas y credenciales. Combina inteligencia artificial, técnicas de criptografía y análisis de vulnerabilidades para ofrecer una solución integral en la gestión de credenciales.
+Descripción del Proyecto
 
----
+Arquitectura del Proyecto
 
-## **Características Principales**
+Proceso de Desarrollo
 
-### **🛠️ Generadores**
-- **🔑 Generador de Contraseñas Seguras**: Crea contraseñas robustas con longitud personalizable (12-32 caracteres).
-- **🔑 Generador de Llaves de Acceso**: Genera llaves de acceso únicas y seguras para APIs o sistemas.
+Fuente del Dataset
 
-### **🔒 Bóveda de Contraseñas**
-- **Almacenamiento Seguro**: Guarda contraseñas cifradas con **Fernet** (AES-128).
-- **Gestión de Credenciales**: Añade, visualiza y elimina credenciales de forma segura.
-- **Cifrado Automático**: Los datos se cifran automáticamente al guardarse.
+Limpieza de Datos
 
-### **🔍 Analizador de Contraseñas**
-- **Detección de Debilidades**: Identifica contraseñas débiles basadas en patrones comunes.
-- **Red Neuronal**: Clasifica contraseñas en **Débil**, **Media** o **Fuerte** con un modelo entrenado.
-- **Análisis de Groq**: Usa **Llama3-70b** para un análisis detallado de la seguridad de la contraseña.
+Manejo de Excepciones y Control de Errores
 
-### **💬 Asistente de Seguridad**
-- **Chatbot Inteligente**: Responde preguntas sobre seguridad, mejores prácticas y gestión de credenciales.
-- **Integración con Groq**: Proporciona respuestas precisas y contextuales.
+Estadísticos y Gráficos
 
-### **🌐 Escáner de Vulnerabilidades Web**
-- **Detección de Vulnerabilidades**: Escanea sitios web en busca de **XSS**, **SQL Injection** y **CSRF**.
-- **Explicación Detallada**: Usa Groq para explicar las vulnerabilidades encontradas y cómo solucionarlas.
+Funcionalidades
 
-### **🔐 Verificador de Fugas de Datos**
-- **Comprobación de Fugas**: Verifica si una contraseña ha sido expuesta en fugas de datos conocidas usando la API de **Have I Been Pwned**.
+Estado del Proyecto
 
----
+Tecnologías y Herramientas Usadas
 
-## **Tecnologías Utilizadas**
+Conclusiones del Proyecto
 
-- **Inteligencia Artificial**:
-  - **Groq API** con el modelo **Llama3-70b** para análisis avanzado y chat bot.
-  - **Red Neuronal** entrenada con TensorFlow/Keras para clasificación de contraseñas.
-  
-- **Criptografía**:
-  - **Fernet (AES-128)** para cifrado seguro de contraseñas.
-  - **SHA-1** para verificación de fugas de datos.
+🏷️ Nombre del Proyecto
+WildPassPro - Suite de Seguridad y Gestión de Contraseñas.
 
-- **Frameworks y Librerías**:
-  - **Streamlit** para la interfaz de usuario.
-  - **Pandas** y **NumPy** para manejo de datos.
-  - **Scikit-learn** para preprocesamiento.
-  - **Requests** para interacción con APIs externas.
+📝 Descripción del Proyecto
+WildPassPro es una aplicación innovadora diseñada para mejorar la seguridad de tus contraseñas, proteger tus datos y brindarte herramientas avanzadas para gestionar tus credenciales de manera inteligente. Con un enfoque en la usabilidad, la seguridad y la inteligencia artificial, WildPassPro es tu compañero ideal para navegar en el mundo digital de forma segura.
 
----
+WildPassPro Demo
 
-## **Instalación y Uso**
+🏗️ Arquitectura del Proyecto
+Diagrama de Arquitectura
+Arquitectura de WildPassPro
 
-### **Requisitos**
-- Python 3.9 o superior.
-- Librerías necesarias: `streamlit`, `tensorflow`, `pandas`, `numpy`, `cryptography`, `requests`, `scikit-learn`.
+Componentes Principales:
+Frontend:
 
-### **Instalación**
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project.git
-   cd PROYECTO-IA-SIC-The-Wild-Project
-   ```
-2. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Ejecuta la aplicación:
-   ```bash
-   streamlit run app.py
-   ```
+Interfaz de usuario construida con Streamlit.
 
-### **Uso**
-1. **Genera contraseñas seguras** en la pestaña **🛠️ Generadores**.
-2. **Almacena y gestiona** tus credenciales en la **🔒 Bóveda**.
-3. **Analiza contraseñas** existentes en la pestaña **🔍 Analizador**.
-4. **Escanea sitios web** en busca de vulnerabilidades en **🌐 Escáner Web**.
-5. **Consulta al asistente** de seguridad en **💬 Chatbot**.
-6. **Verifica fugas de datos** en **🔐 Verificador de Fugas**.
+Diseño moderno con CSS personalizado.
 
----
+Backend:
 
-## **Arquitectura del Sistema**
+Lógica de negocio en Python.
 
-### **Red Neuronal**
-- **Capas**:
-  - **Capa Oculta 1**: 64 neuronas con activación **ReLU**.
-  - **Capa Oculta 2**: 32 neuronas con activación **ReLU**.
-  - **Capa Oculta 3**: 16 neuronas con activación **ReLU**.
-  - **Capa de Salida**: 3 neuronas con activación **Softmax** (clasificación en 3 clases).
-- **Entrenamiento**:
-  - **Dataset**: 14,501 contraseñas etiquetadas.
-  - **Optimizador**: Adam con tasa de aprendizaje adaptativa.
-  - **Función de Pérdida**: `sparse_categorical_crossentropy`.
-  - **Regularización**: Dropout y BatchNormalization para evitar sobreajuste.
+Redes Neuronales para evaluación de contraseñas.
 
-### **Cifrado**
-- **Fernet (AES-128)**:
-  - Genera una clave de cifrado única al iniciar la aplicación.
-  - Cifra y descifra archivos automáticamente.
+Groq API para análisis avanzado con IA.
 
-### **Integración con APIs**
-- **Groq API**: Para análisis avanzado y respuestas contextuales.
-- **Have I Been Pwned API**: Para verificación de fugas de datos.
+Base de Datos:
 
----
+Almacenamiento seguro de contraseñas cifradas con AES-256.
 
-## **Seguridad**
-- **Cifrado de Datos**: Todas las contraseñas se almacenan cifradas.
-- **Protección de Acceso**: Requiere una contraseña maestra para acceder a la bóveda.
-- **Verificación de Fugas**: Comprueba si las contraseñas han sido expuestas en fugas de datos.
+APIs Externas:
 
----
+GitHub OAuth para autenticación.
 
-## **Contribuciones**
-¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto, sigue estos pasos:
-1. Haz un fork del repositorio.
-2. Crea una rama con tu nueva funcionalidad (`git checkout -b nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`).
-4. Haz push a la rama (`git push origin nueva-funcionalidad`).
-5. Abre un Pull Request.
+Have I Been Pwned API para verificación de fugas de datos.
 
----
+🛠️ Proceso de Desarrollo
+1. Fuente del Dataset
+Utilizamos un dataset público de contraseñas para entrenar nuestros modelos.
 
-## **Contacto**
-Autores
-- AndersonP444 (Andersonjperdomo@gmail.com)
-- DiegoAlviarez (dilanalviarez@gmail.com)
-- Jeremyvr28 (jeremyvicent28@gmail.com)
-- mrgrey28 (greymelmoreno@gmail.com)
-- Kev1nM4nu (kenken29815793@gmail.com)
+Fuente: Kaggle - Password Strength Dataset.
 
+2. Limpieza de Datos
+Eliminación de contraseñas duplicadas.
 
----
+Normalización de caracteres y formato.
 
-**WildPassPro** es una herramienta poderosa para proteger tus credenciales y mejorar tu seguridad en línea. ¡Pruébala y mantén tus datos seguros! 🔐
+División del dataset en entrenamiento y prueba.
+
+Limpieza de Datos
+
+3. Manejo de Excepciones y Control de Errores
+Implementación de try-except para capturar errores en tiempo real.
+
+Validación de entradas del usuario para evitar inyecciones de código.
+
+4. Estadísticos y Gráficos
+Gráficos de barras para mostrar la fortaleza de las contraseñas.
+
+Métricas de precisión y recall para los modelos de IA.
+
+Estadísticos
+
+🎯 Funcionalidades
+1. Generador de Contraseñas Seguras
+Crea contraseñas robustas y únicas con un solo clic.
+
+2. Bóveda de Contraseñas Cifradas
+Almacena tus contraseñas de forma segura con cifrado AES-256.
+
+3. Analizador de Fortaleza de Contraseñas
+Evalúa la fortaleza de tus contraseñas en tiempo real.
+
+4. Asistente de Seguridad con IA (Groq API)
+Explicaciones detalladas generadas por IA.
+
+5. Redes Neuronales para Evaluación de Contraseñas
+Utiliza modelos de redes neuronales entrenados para predecir la fortaleza de las contraseñas.
+
+6. Escáner de Vulnerabilidades Web
+Analiza sitios web en busca de vulnerabilidades comunes.
+
+7. Verificador de Fugas de Datos
+Verifica si tus contraseñas han sido expuestas en fugas de datos conocidas.
+
+📊 Estado del Proyecto
+Versión Actual: 1.0.0
+
+Estado: En desarrollo activo.
+
+Próximas Funcionalidades:
+
+Integración con WhatsApp y Telegram.
+
+Interfaz gráfica de usuario más avanzada.
+
+🛠️ Tecnologías y Herramientas Usadas
+Frontend:
+Streamlit
+
+CSS
+
+Backend:
+Python
+
+TensorFlow/Keras
+
+Scikit-learn
+
+Groq API
+
+Cryptography
+
+APIs Externas:
+GitHub OAuth
+
+Have I Been Pwned API
+
+Otras Herramientas:
+Git para control de versiones.
+
+Docker para contenerización.
+
+🎓 Conclusiones del Proyecto
+WildPassPro es un proyecto ambicioso que combina seguridad, inteligencia artificial y usabilidad para ofrecer una solución completa de gestión de contraseñas. A lo largo del desarrollo, hemos aprendido la importancia de:
+
+Seguridad: Implementar medidas robustas para proteger los datos de los usuarios.
+
+IA: Utilizar modelos avanzados para mejorar la experiencia del usuario.
+
+Usabilidad: Diseñar interfaces intuitivas y fáciles de usar.
+
+Este proyecto no solo mejora la seguridad de los usuarios, sino que también sirve como un ejemplo de cómo la tecnología puede ser utilizada para resolver problemas cotidianos de manera eficiente.
+
+🌍 Haz del Mundo un Lugar Más Seguro
+Con WildPassPro, no solo proteges tus datos, sino que también contribuyes a un mundo digital más seguro. ¡Únete a nosotros y sé parte de la revolución de la seguridad!
+
+WildPassPro - Porque tu seguridad es nuestra prioridad. 🔐
