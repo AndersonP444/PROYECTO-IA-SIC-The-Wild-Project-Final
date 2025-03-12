@@ -32,40 +32,6 @@ WildPassPro es una aplicación innovadora diseñada para mejorar la seguridad de
 
 ## 🏗️ **Arquitectura del Proyecto**
 
-### Diagrama de Arquitectura
-+-------------------+
-|   Interfaz de     |
-|   Usuario (UI)    |
-|   (Streamlit)     |
-+-------------------+
-          |
-          v
-+-------------------+
-|   Lógica de       |
-|   Negocio         |
-|   (Python)        |
-+-------------------+
-          |
-          v
-+-------------------+       +-------------------+
-|   Red Neuronal    |       |   Chatbot         |
-|   (TensorFlow)    |       |   (NLTK)          |
-+-------------------+       +-------------------+
-          |                           |
-          v                           v
-+-------------------+       +-------------------+
-|   Cifrado         |       |   Escáner Web     |
-|   (Fernet)        |       |   (Requests)      |
-+-------------------+       +-------------------+
-          |                           |
-          v                           v
-+-------------------+       +-------------------+
-|   Verificación    |       |   API Externa     |
-|   de Fugas        |       |   (Have I Been    |
-|   (Have I Been    |       |   Pwned)          |
-|   Pwned API)      |       +-------------------+
-+-------------------+
-
 ### Componentes Principales:
 1. **Frontend**:
    - Interfaz de usuario construida con **Streamlit**.
