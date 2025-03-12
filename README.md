@@ -1,165 +1,161 @@
-WildPassPro - Suite de Seguridad y Gestión de Contraseñas 🔐
-📑 Tabla de Contenidos
-Nombre del Proyecto
+# WildPassPro - Suite de Seguridad y Gestión de Contraseñas 🔐
 
-Descripción del Proyecto
+---
 
-Arquitectura del Proyecto
+## 📑 **Tabla de Contenidos**
+1. [Nombre del Proyecto](#-nombre-del-proyecto)
+2. [Descripción del Proyecto](#-descripción-del-proyecto)
+3. [Arquitectura del Proyecto](#-arquitectura-del-proyecto)
+4. [Proceso de Desarrollo](#-proceso-de-desarrollo)
+   - Fuente del Dataset
+   - Limpieza de Datos
+   - Manejo de Excepciones y Control de Errores
+   - Estadísticos y Gráficos
+5. [Funcionalidades](#-funcionalidades)
+6. [Estado del Proyecto](#-estado-del-proyecto)
+7. [Tecnologías y Herramientas Usadas](#-tecnologías-y-herramientas-usadas)
+8. [Conclusiones del Proyecto](#-conclusiones-del-proyecto)
 
-Proceso de Desarrollo
+---
 
-Fuente del Dataset
+## 🏷️ **Nombre del Proyecto**
+**WildPassPro** - Suite de Seguridad y Gestión de Contraseñas.
 
-Limpieza de Datos
+---
 
-Manejo de Excepciones y Control de Errores
-
-Estadísticos y Gráficos
-
-Funcionalidades
-
-Estado del Proyecto
-
-Tecnologías y Herramientas Usadas
-
-Conclusiones del Proyecto
-
-🏷️ Nombre del Proyecto
-WildPassPro - Suite de Seguridad y Gestión de Contraseñas.
-
-📝 Descripción del Proyecto
+## 📝 **Descripción del Proyecto**
 WildPassPro es una aplicación innovadora diseñada para mejorar la seguridad de tus contraseñas, proteger tus datos y brindarte herramientas avanzadas para gestionar tus credenciales de manera inteligente. Con un enfoque en la usabilidad, la seguridad y la inteligencia artificial, WildPassPro es tu compañero ideal para navegar en el mundo digital de forma segura.
 
-WildPassPro Demo
+![WildPassPro Demo](https://raw.githubusercontent.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project/main/secuencia-vector-diseno-codigo-binario_53876-164420.png)
 
-🏗️ Arquitectura del Proyecto
-Diagrama de Arquitectura
-Arquitectura de WildPassPro
+---
 
-Componentes Principales:
-Frontend:
+## 🏗️ **Arquitectura del Proyecto**
 
-Interfaz de usuario construida con Streamlit.
+### Diagrama de Arquitectura
+![Arquitectura de WildPassPro](https://raw.githubusercontent.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project/main/arquitectura_wildpasspro.png)
 
-Diseño moderno con CSS personalizado.
+### Componentes Principales:
+1. **Frontend**:
+   - Interfaz de usuario construida con **Streamlit**.
+   - Diseño moderno con **CSS personalizado**.
 
-Backend:
+2. **Backend**:
+   - Lógica de negocio en **Python**.
+   - **Redes Neuronales** para evaluación de contraseñas.
+   - **Groq API** para análisis avanzado con IA.
 
-Lógica de negocio en Python.
+3. **Base de Datos**:
+   - Almacenamiento seguro de contraseñas cifradas con **AES-256**.
 
-Redes Neuronales para evaluación de contraseñas.
+4. **APIs Externas**:
+   - **GitHub OAuth** para autenticación.
+   - **Have I Been Pwned API** para verificación de fugas de datos.
 
-Groq API para análisis avanzado con IA.
+---
 
-Base de Datos:
+## 🛠️ **Proceso de Desarrollo**
 
-Almacenamiento seguro de contraseñas cifradas con AES-256.
+### 1. **Fuente del Dataset**
+   - Utilizamos un dataset público de contraseñas para entrenar nuestros modelos.
+   - Fuente: [Kaggle - Password Strength Dataset](https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset).
 
-APIs Externas:
+### 2. **Limpieza de Datos**
+   - Eliminación de contraseñas duplicadas.
+   - Normalización de caracteres y formato.
+   - División del dataset en entrenamiento y prueba.
 
-GitHub OAuth para autenticación.
+![Limpieza de Datos](https://raw.githubusercontent.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project/main/limpieza_datos.png)
 
-Have I Been Pwned API para verificación de fugas de datos.
+### 3. **Manejo de Excepciones y Control de Errores**
+   - Implementación de try-except para capturar errores en tiempo real.
+   - Validación de entradas del usuario para evitar inyecciones de código.
 
-🛠️ Proceso de Desarrollo
-1. Fuente del Dataset
-Utilizamos un dataset público de contraseñas para entrenar nuestros modelos.
+### 4. **Estadísticos y Gráficos**
+   - Gráficos de barras para mostrar la fortaleza de las contraseñas.
+   - Métricas de precisión y recall para los modelos de IA.
 
-Fuente: Kaggle - Password Strength Dataset.
+![Estadísticos](https://raw.githubusercontent.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project/main/estadisticos.png)
 
-2. Limpieza de Datos
-Eliminación de contraseñas duplicadas.
+---
 
-Normalización de caracteres y formato.
+## 🎯 **Funcionalidades**
 
-División del dataset en entrenamiento y prueba.
+### 1. **Generador de Contraseñas Seguras**
+   - Crea contraseñas robustas y únicas con un solo clic.
 
-Limpieza de Datos
+### 2. **Bóveda de Contraseñas Cifradas**
+   - Almacena tus contraseñas de forma segura con cifrado AES-256.
 
-3. Manejo de Excepciones y Control de Errores
-Implementación de try-except para capturar errores en tiempo real.
+### 3. **Analizador de Fortaleza de Contraseñas**
+   - Evalúa la fortaleza de tus contraseñas en tiempo real.
 
-Validación de entradas del usuario para evitar inyecciones de código.
+### 4. **Asistente de Seguridad con IA (Groq API)**
+   - Explicaciones detalladas generadas por IA.
 
-4. Estadísticos y Gráficos
-Gráficos de barras para mostrar la fortaleza de las contraseñas.
+### 5. **Redes Neuronales para Evaluación de Contraseñas**
+   - Utiliza modelos de redes neuronales entrenados para predecir la fortaleza de las contraseñas.
 
-Métricas de precisión y recall para los modelos de IA.
+### 6. **Escáner de Vulnerabilidades Web**
+   - Analiza sitios web en busca de vulnerabilidades comunes.
 
-Estadísticos
+### 7. **Verificador de Fugas de Datos**
+   - Verifica si tus contraseñas han sido expuestas en fugas de datos conocidas.
 
-🎯 Funcionalidades
-1. Generador de Contraseñas Seguras
-Crea contraseñas robustas y únicas con un solo clic.
+---
 
-2. Bóveda de Contraseñas Cifradas
-Almacena tus contraseñas de forma segura con cifrado AES-256.
+## 📊 **Estado del Proyecto**
+- **Versión Actual**: 1.0.0
+- **Estado**: En desarrollo activo.
+- **Próximas Funcionalidades**:
+  - Integración con WhatsApp y Telegram.
+  - Interfaz gráfica de usuario más avanzada.
 
-3. Analizador de Fortaleza de Contraseñas
-Evalúa la fortaleza de tus contraseñas en tiempo real.
+---
 
-4. Asistente de Seguridad con IA (Groq API)
-Explicaciones detalladas generadas por IA.
+## 🛠️ **Tecnologías y Herramientas Usadas**
 
-5. Redes Neuronales para Evaluación de Contraseñas
-Utiliza modelos de redes neuronales entrenados para predecir la fortaleza de las contraseñas.
+### Frontend:
+- **Streamlit**
+- **CSS**
 
-6. Escáner de Vulnerabilidades Web
-Analiza sitios web en busca de vulnerabilidades comunes.
+### Backend:
+- **Python**
+- **TensorFlow/Keras**
+- **Scikit-learn**
+- **Groq API**
+- **Cryptography**
 
-7. Verificador de Fugas de Datos
-Verifica si tus contraseñas han sido expuestas en fugas de datos conocidas.
+### APIs Externas:
+- **GitHub OAuth**
+- **Have I Been Pwned API**
 
-📊 Estado del Proyecto
-Versión Actual: 1.0.0
+### Otras Herramientas:
+- **Git** para control de versiones.
+- **Docker** para contenerización.
 
-Estado: En desarrollo activo.
+---
 
-Próximas Funcionalidades:
+## 🎓 **Conclusiones del Proyecto**
 
-Integración con WhatsApp y Telegram.
-
-Interfaz gráfica de usuario más avanzada.
-
-🛠️ Tecnologías y Herramientas Usadas
-Frontend:
-Streamlit
-
-CSS
-
-Backend:
-Python
-
-TensorFlow/Keras
-
-Scikit-learn
-
-Groq API
-
-Cryptography
-
-APIs Externas:
-GitHub OAuth
-
-Have I Been Pwned API
-
-Otras Herramientas:
-Git para control de versiones.
-
-Docker para contenerización.
-
-🎓 Conclusiones del Proyecto
 WildPassPro es un proyecto ambicioso que combina seguridad, inteligencia artificial y usabilidad para ofrecer una solución completa de gestión de contraseñas. A lo largo del desarrollo, hemos aprendido la importancia de:
 
-Seguridad: Implementar medidas robustas para proteger los datos de los usuarios.
-
-IA: Utilizar modelos avanzados para mejorar la experiencia del usuario.
-
-Usabilidad: Diseñar interfaces intuitivas y fáciles de usar.
+1. **Seguridad**: Implementar medidas robustas para proteger los datos de los usuarios.
+2. **IA**: Utilizar modelos avanzados para mejorar la experiencia del usuario.
+3. **Usabilidad**: Diseñar interfaces intuitivas y fáciles de usar.
 
 Este proyecto no solo mejora la seguridad de los usuarios, sino que también sirve como un ejemplo de cómo la tecnología puede ser utilizada para resolver problemas cotidianos de manera eficiente.
 
-🌍 Haz del Mundo un Lugar Más Seguro
+---
+
+## 🌍 **Haz del Mundo un Lugar Más Seguro**
+
 Con WildPassPro, no solo proteges tus datos, sino que también contribuyes a un mundo digital más seguro. ¡Únete a nosotros y sé parte de la revolución de la seguridad!
 
-WildPassPro - Porque tu seguridad es nuestra prioridad. 🔐
+---
+
+**WildPassPro** - Porque tu seguridad es nuestra prioridad. 🔐
+
+---
+
+¡Esperamos que disfrutes usando WildPassPro tanto como nosotros disfrutamos creándolo! 🚀
