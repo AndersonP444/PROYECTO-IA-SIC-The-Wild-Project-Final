@@ -76,7 +76,6 @@ WildPassPro es una aplicación innovadora diseñada para mejorar la seguridad de
 
 ![image](https://github.com/user-attachments/assets/724f57d2-8b8e-40ad-b26f-fc1a571f562e)
 ![image](https://github.com/user-attachments/assets/e399d5a4-1449-4b43-8455-218c67e67961)
-![image](https://github.com/user-attachments/assets/99d55c90-c5d8-4b2e-960d-c9f479dea4c9)
 ![image](https://github.com/user-attachments/assets/cdcfc2cb-a989-49da-afa6-20a3bde1ad37)
 ![image](https://github.com/user-attachments/assets/361edd0c-3865-490b-8405-04b0b3cccb0c)
 ![image](https://github.com/user-attachments/assets/1af7fc57-e302-4b54-9b0c-7f74debf763d)
