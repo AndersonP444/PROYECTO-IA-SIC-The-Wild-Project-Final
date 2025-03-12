@@ -26,7 +26,7 @@
 ## 📝 **Descripción del Proyecto**
 WildPassPro es una aplicación innovadora diseñada para mejorar la seguridad de tus contraseñas, proteger tus datos y brindarte herramientas avanzadas para gestionar tus credenciales de manera inteligente. Con un enfoque en la usabilidad, la seguridad y la inteligencia artificial, WildPassPro es tu compañero ideal para navegar en el mundo digital de forma segura.
 
-![WildPassPro Demo](https://raw.githubusercontent.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project/main/secuencia-vector-diseno-codigo-binario_53876-164420.png)
+![WildPassPro Demo](https://github.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project-Final/blob/main/wildpasspro.png)
 
 ---
 
