@@ -65,7 +65,6 @@ WildPassPro es una aplicación innovadora diseñada para mejorar la seguridad de
    - Normalización de caracteres y formato.
    - División del dataset en entrenamiento y prueba.
 
-![Limpieza de Datos](https://raw.githubusercontent.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project/main/limpieza_datos.png)
 
 ### 3. **Manejo de Excepciones y Control de Errores**
    - Implementación de try-except para capturar errores en tiempo real.
@@ -75,7 +74,18 @@ WildPassPro es una aplicación innovadora diseñada para mejorar la seguridad de
    - Gráficos de barras para mostrar la fortaleza de las contraseñas.
    - Métricas de precisión y recall para los modelos de IA.
 
-![Estadísticos](https://raw.githubusercontent.com/AndersonP444/PROYECTO-IA-SIC-The-Wild-Project/main/estadisticos.png)
+![image](https://github.com/user-attachments/assets/724f57d2-8b8e-40ad-b26f-fc1a571f562e)
+![image](https://github.com/user-attachments/assets/e399d5a4-1449-4b43-8455-218c67e67961)
+![image](https://github.com/user-attachments/assets/99d55c90-c5d8-4b2e-960d-c9f479dea4c9)
+![image](https://github.com/user-attachments/assets/cdcfc2cb-a989-49da-afa6-20a3bde1ad37)
+![image](https://github.com/user-attachments/assets/361edd0c-3865-490b-8405-04b0b3cccb0c)
+![image](https://github.com/user-attachments/assets/1af7fc57-e302-4b54-9b0c-7f74debf763d)
+![image](https://github.com/user-attachments/assets/d7736a4c-c143-4e06-bc37-c71720c505bb)
+![image](https://github.com/user-attachments/assets/b89f8f5b-20b1-4c53-ae44-40a0978a8d63)
+![image](https://github.com/user-attachments/assets/be1c3ed6-435a-4ec8-9227-400585e51513)
+![image](https://github.com/user-attachments/assets/14659804-3b39-48f5-b64c-b09205ae1885)
+![image](https://github.com/user-attachments/assets/c4d62e50-2549-4926-bf16-af9f5237f7a1)
+![image](https://github.com/user-attachments/assets/30197a83-fa0a-45bb-ab0d-22233575b0d2)
 
 ---
 
